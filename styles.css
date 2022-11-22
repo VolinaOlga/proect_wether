@@ -1,0 +1,38 @@
+.weather {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    width: 60%;
+    padding: 60px;
+    background: linear-gradient(
+      135deg,
+      rgb(255, 168, 168) 10%,
+      rgb(252, 255, 0) 100%
+    );
+  }
+  h1,
+  h3 {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 48px;
+    margin: 0;
+    font-family: "Ubuntu Condensed", sans-serif;
+  }
+  
+  h1 {
+    text-decoration: underline;
+  }
+  .city {
+    color: grey;
+    font-size: 30px;
+  }
+  .termometr {
+    color: lightseagreen;
+    font-size: 28px;
+  }
+  .day {
+    color: red;
+    font-size: 20px;
+  }
+  
